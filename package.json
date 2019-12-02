@@ -4,7 +4,8 @@
   "description": "클레이튼 토큰을 활용한 연예인 애장품 마켓",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
